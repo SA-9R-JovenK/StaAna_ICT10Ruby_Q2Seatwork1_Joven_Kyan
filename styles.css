@@ -1,0 +1,109 @@
+html, body{
+    height:100%;
+}
+
+body{
+    background:url("Red Bread.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+
+    font-family:"Trebuchet MS", Arial, sans-serif;
+    color:#f4e6c8;
+
+    min-height:100vh;
+}
+
+.container{
+    max-width:850px;
+    margin:auto;
+    background:rgba(28,22,18,.92);
+    border:3px solid #b87a2d;
+    border-radius:18px;
+    box-shadow:0 0 25px rgba(0,0,0,.6);
+    padding:35px;
+}
+h1{
+    text-align:center;
+    margin-bottom:15px;
+    font-weight:bold;
+}
+
+h1 a{
+    color:#d89b42;
+    text-decoration:none;
+}
+
+h1 a:hover{
+    color:#ffbf52;
+    text-shadow:0 0 8px #ffbf52;
+}
+
+p{
+    color:#ddd0b5;
+    text-align:center;
+    margin-bottom:30px;
+    font-size:1.05rem;
+}
+
+.form-control{
+    background:#2d2520;
+    border:2px solid #8a5d2b;
+    color:#f4e6c8;
+}
+
+.form-control::placeholder{ color:#b8a98a;}
+.form-control:focus{
+    background:#342a23;
+    color:white;
+    border-color:#d89b42;
+    box-shadow:0 0 10px rgba(216,155,66,.5);
+}
+
+
+.btn-primary{
+    width:100%;
+    font-weight:bold;
+    letter-spacing:1px;
+    background:#b14920;
+    border:2px solid #d98a3c;
+}
+.btn-primary:hover{
+    background:#d96b2b;
+    border-color:#ffb347;
+    transform:translateY(-2px);
+}
+
+
+.member-box{
+    margin-top:30px;
+    background:#2d2520;
+    border:2px solid #8a5d2b;
+    border-radius:12px;
+    padding:20px;
+}
+
+.member-box h2{
+    color:#ffb347;
+    text-align:center;
+    margin-bottom:20px;
+    border-bottom:2px solid #8a5d2b;
+    padding-bottom:10px;
+}
+
+#result{
+    min-height:70px;
+    background:#1f1a16;
+    border-left:5px solid #d98a3c;
+    padding:18px;
+    border-radius:8px;
+    font-size:1.1rem;
+    font-weight:bold;
+    color:#f4e6c8;
+}
+
+::selection{background:#d98a3c;color:white;}
+a{transition:.25s;}
+button{transition:.2s;}
+py-terminal{display:none;}
