@@ -1,0 +1,2 @@
+# StaAna_ICT10Ruby_Q2Seatwork1_Joven_Kyan
+MISSION BEGINS IN 30 SECONDS
